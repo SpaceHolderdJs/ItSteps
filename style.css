@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 20vw;
+  height: 10vh;
+  outline: none;
+  color: aqua;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 15px;
+  border: 2px solid aqua;
+  animation: anim 1.5s linear infinite;
+  text-shadow: 1px 3px 15px 10px aqua;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: inset 1px 2px 15px 10px aqua, 1px 3px 15px 10px aqua;
+}
+
+@keyframes anim {
+  0% {
+    box-shadow: inset 1px 2px 15px 10px aqua, 1px 3px 15px 10px aqua;
+  }
+
+  50% {
+    box-shadow: inset 1px 2px 15px 15px aqua, 1px 3px 15px 15px aqua;
+  }
+
+  100% {
+    box-shadow: inset 1px 2px 15px 10px aqua, 1px 3px 15px 10px aqua;
+  }
+}
+
+#three {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
