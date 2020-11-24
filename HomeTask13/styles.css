@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url("https://as2.ftcdn.net/jpg/01/93/59/35/500_F_193593529_giDP7DdqyiBMM7aeefV9snnMZcX5SVfz.jpg")
+    no-repeat center/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background: rgb(13, 2, 59);
+}
