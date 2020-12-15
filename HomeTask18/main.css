@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  transform-style: preserve-3d;
+  perspective: 400px;
+}
+
+table {
+  border: 5px solid lime;
+  box-shadow: 2px 4px 10px 5px chartreuse;
+  background: black;
+  color: lime;
+}
+
+tr,
+td {
+  border: 1px solid lawngreen;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  margin-top: 30px;
+  background: black;
+  border: 3px solid lime;
+  border-radius: 30px;
+  color: chartreuse;
+  text-align: center;
+  outline: none;
+}
+
+p {
+  font-size: 15px;
+  color: grey;
+}
+
+.matrix {
+  position: absolute;
+  color: lime;
+  transform: rotate(-90deg);
+  z-index: -1;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 2px 2px 10px 5px chartreuse, inset 2px 2px 10px 5px chartreuse;
+  }
+
+  50% {
+    box-shadow: 2px 3px 5px 7px chartreuse, inset 2px 2px 10px 5px chartreuse;
+  }
+
+  100% {
+    box-shadow: 2px 2px 10px 5px chartreuse, inset 2px 2px 10px 5px chartreuse;
+  }
+}
