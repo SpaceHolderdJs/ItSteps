@@ -1,0 +1,11 @@
+.selected {
+  background-color: black;
+  color: white;
+}
+body {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
