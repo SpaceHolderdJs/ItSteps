@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(30,30,30);
+}
+
+.keyboard{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    padding: 1vw;
+    border-radius: 30px;
+}
+
+.keyboard .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin: 1vh;
+    font-size: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+.active{
+    background-color: white;
+    color: grey;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vh;
+    color: wheat;
+}
+
+.js{
+    color: black;
+    background-color: gold;
+    font-size: 60px;
+}
