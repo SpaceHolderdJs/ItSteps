@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+input, select,p{
+    margin: 3vh;
+    font-size: 5vh;
+    color:white;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+select {
+    color:black;
+}
+
+input:hover{
+    transform: scale(1.2);
+}
