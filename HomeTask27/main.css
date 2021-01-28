@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient();
+}
+
+.form{
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h3, .form h1{
+    margin: 10px;
+}
+
+.form input, .form button, .form select{
+    font-size: 3vh;
+    outline: none;
+    text-align: center;
+    background: none;
+    border: none;
+    box-shadow:  1px 2px 10px 5px cadetblue;
+}
+
+.form input {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.form button {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    cursor: pointer;
+}
+
+.form select {
+    border-radius: 20px;
+    display: none;
+}
+
+.components-wrapper{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 3vh;
+}
+
+.components-wrapper .component {
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    margin: 1vw;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 1px 15px 5px cadetblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.components-wrapper .component:hover{
+    transform: scale(1.05);
+}
+
+
+.components-wrapper .component p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.components-wrapper .component img{
+    transition: 0.5s;
+}
+
+.film-cover{
+    width: 20vw;
+    height: 45vh;
+}
