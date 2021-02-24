@@ -1,0 +1,91 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  margin: 5vh;
+}
+
+.form a {
+  margin: 10px;
+}
+
+.form input {
+  width: 30vw;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main section {
+  width: 90vw;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+main section .card {
+  width: 20vw;
+  margin: 1vw;
+  transition: 0.3s all;
+}
+
+main section .card:hover {
+  transform: scale(1.05);
+}
+
+main section .card img {
+  height: 40vh;
+}
+
+ul .active {
+  background-color: teal;
+}
+
+ul {
+  display: none;
+}
+
+ul li {
+  background: none;
+}
+
+ul li button {
+  margin: 10px;
+  width: 30px;
+  border-radius: 10px;
+  height: 30px;
+  transition: 0.3s;
+  border: none;
+}
+
+ul li button:hover {
+  transform: scale(1.2);
+}
+
+#info {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#info .card {
+  width: 60vw;
+}
