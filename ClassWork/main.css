@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  perspective: 100px;
+}
+.wrapper {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.render {
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decor {
+  position: absolute;
+  z-index: 0;
+  transform: rotateZ(90deg);
+  color: lime;
+  transform-style: preserve-3d;
+  text-shadow: 1px 1px 15px lawngreen;
+  transition: 0.3s all;
+}
+
+button {
+  z-index: 1;
+}
+
+.card {
+  z-index: 1;
+}
