@@ -1,0 +1,110 @@
+nav {
+  background-color: black;
+}
+
+.section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.active {
+  display: flex;
+}
+
+.users .user-min {
+  width: 70vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 1vh;
+  box-shadow: 1px 1px 15px 5px grey;
+  margin: 1vh;
+  background-color: black;
+  color: white;
+}
+
+.float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 93vw;
+  top: 85vh;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+}
+
+.top {
+  top: 75vh;
+  display: none;
+}
+
+.users .user-min .col {
+  margin: 1vw;
+  width: 55vw;
+  align-items: flex-start;
+}
+
+.posts .post {
+  width: 60vw;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  padding: 1vw;
+  margin: 1vw;
+  transition: 0.3s all;
+}
+
+.posts .post .badge {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+}
+
+.posts .post a {
+  color: wheat;
+}
+
+.posts .post .row {
+  padding-left: 1vw;
+}
+
+.posts .post .row span {
+  margin-left: 1vw;
+  margin-right: 5px;
+}
+
+.posts .post .row .edit {
+  margin-right: 10px;
+}
+
+.posts .post .row div {
+  width: 30vw;
+  margin-right: 23vw;
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content .row {
+  justify-content: flex-start;
+}
+
+.modal-content .row i {
+  margin-right: 10px;
+}

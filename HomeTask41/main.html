@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    <link rel="stylesheet" href="main.css">           
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class = "waves-effect"><a href="#users">Users</a></li>
+            <li class = "waves-effect"><a href="#posts">Posts</a></li>
+            <li class = "waves-effect"><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+      <div id="userInfo" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+        </div>
+      </div>
+
+      <div id="editPost" class="modal">
+        <div class="modal-content">
+          <h4>Edit the post</h4>
+          <input type="text" placeholder="title">
+          <textarea name="" id="" cols="30" rows="10" placeholder="text"></textarea>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+        </div>
+      </div>
+
+      <div id="createPost" class="modal">
+        <div class="modal-content">
+          <h4>Create Post</h4>
+          <input type="text" placeholder="title">
+          <textarea name="" id="" cols="30" rows="10" placeholder="text"></textarea>
+          <p>Publish as...</p>
+          <select name="" id="" class="browser-default">
+              
+          </select>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">PUBLISH</a>
+        </div>
+      </div>
+
+      <div class="section users"  name = "users">
+        <h4>Users</h4>
+      </div>
+   
+      <div class="section posts" name = "posts">
+          <a class="float btn-large waves-effect waves-light top pulse"><i class="material-icons">keyboard_arrow_up</i></a>
+          <a class="float btn-large waves-effect waves-light addPost modal-trigger" href = "#createPost"><i class="material-icons">rate_review</i></a>
+      </div>
+      <div class="section">T</div>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
